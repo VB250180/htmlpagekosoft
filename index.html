@@ -3,14 +3,14 @@
 
 <head>
   <meta charset="utf-8">
-  <title>NewBiz Bootstrap Template</title>
+  <title>Kosoft IT solution</title>
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
   <meta content="" name="keywords">
   <meta content="" name="description">
 
   <!-- Favicons -->
-  <link href="img/favicon.png" rel="icon" />
-  <link href="img/apple-touch-icon.png" rel="apple-touch-icon">
+  <link href="img/KOSOFT.png" rel="icon" />
+  <link href="img/KOSOFT.png" rel="apple-touch-icon">
 
   <!-- Google Fonts -->
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i|Montserrat:300,400,500,700"
@@ -44,32 +44,60 @@
 
   <script> 
       $(function(){
-        $("#header").load("header.html"); 
+        
         $("#footer").load("footer.html"); 
       });
       </script> 
 
 </head>
-<div id="header"></div>  
-
 <body>
-
+  <header id="header" class="fixed-top">
+    <div class="container">
+      <div class="logo float-left">     
+        <a href="#intro" class="scrollto">
+          <img src="img/kosoft-logo.png" class="img-fluid">
+        </a>
+      </div>
+      <nav class="main-nav float-right d-none d-lg-block">
+        <ul>
+          <li class=""><a href="index.html">Home</a></li>
+          <li><a href="about.html">About Us</a></li>
+          <li class="drop-down"><a href="">Service</a>
+            <ul>
+              <li><a href="crm.html">CRM Dynamics</a></li>
+              <li><a href="">Share Point</a>
+                <!-- <ul>
+                  <li><a href="#">Deep Drop Down 1</a></li>
+                  <li><a href="#">Deep Drop Down 2</a></li>
+                  <li><a href="#">Deep Drop Down 3</a></li>
+                  <li><a href="#">Deep Drop Down 4</a></li>
+                  <li><a href="#">Deep Drop Down 5</a></li>
+                </ul> -->
+              </li>
+              <li><a href="#">Mobile Development</a></li>
+              <li><a href="#">Web Development</a></li>
+              <li><a href="#">SCO</a></li>
+              <li><a href="#">Cloud Based Development</a></li>
+              <li><a href="#">Staff Augmentation</a></li>
+            </ul>
+          </li>
+          <li><a href="product.html">Products</a></li>
+          <li><a href="training.html">Training</a></li>
+          <li><a href="#team">Blog</a></li>
+          <li><a href="#">Career</a></li>
+          <li><a href="contact.html">Contact Us</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
   <!--==========================
     Intro Section
   ============================-->
   <header>
-       <video class="banner"  playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop" >
+       <video class="banner" playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop" >
       <source src="img/headervideo.mp4" type="video/mp4">
     </video>
     <nav class="navbar navbar-light bg-white band"></nav>
-    <!-- <div class="container h-100">
-      <div class="d-flex h-100 text-center align-items-center">
-        <div class="w-100 text-white">
-          <h1 class="display-3">Video Header</h1>
-          <p class="lead mb-0">With HTML5 Video and Bootstrap 4</p>
-        </div>
-      </div>
-    </div> -->
   </header>
 
   <!-- Image Showcases -->
@@ -154,10 +182,9 @@
       <section id="clients" >
           <div class="container">
             <div class="section-header">
-              <h3>Team</h3>
-              <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque</p>
+              <h3>WE GO 'THAT' EXTRA MILE TO SEE OUR CLIENTS SMILE</h3>
+              <p>___ _____ ____________________________________________________________ _____ ____</p>
             </div>
-    
             <div class="row">
                 <div class="col-lg-3 col-md-4 col-xs-6">
                     <div class="client-logo" style="border:none">
@@ -166,13 +193,13 @@
                   </div>
               <div class="col-lg-3 col-md-4 col-xs-6">
                   <div class="client-logo" style="border:none">
-                    <img src="img/clients/iliad.png" class="img-fluid" alt="">
+                    <img src="img/clients/quickspring.png" class="img-fluid" alt="">
                   </div>
                 </div>
       
                 <div class="col-lg-3 col-md-4 col-xs-6">
                   <div class="client-logo" style="border:none">
-                    <img src="img/clients/lausd.png" class="img-fluid" alt="">
+                    <img src="img/clients/iliad.png" class="img-fluid" alt="">
                   </div>
                 </div>
       
@@ -192,7 +219,7 @@
             <div class="row">
                 <div class="col-lg-3 col-md-4 col-xs-6">
                     <div class="client-logo" style="border:none">
-                      <img src="img/clients/quickspring.png" class="img-fluid" alt="">
+                      <img src="img/clients/washing.png" class="img-fluid" alt="">
                     </div>
                   </div>
         
@@ -216,190 +243,14 @@
                         <div class="client-logo" style="border:none">
                           <img src="img/clients/sweatrate.png" class="img-fluid" alt="">
                         </div>
-                      </div>
-                      <div class="col-lg-3 col-md-4 col-xs-6">
-                          <div class="client-logo" style="border:none">
-                            <img src="img/clients/washing.png" class="img-fluid" alt="">
-                          </div>
-                        </div>
-            </div>
-    
+                      </div>  
           </div>
         </section>
 
     <!--==========================
       Team Section
     ============================-->
-    <!-- <section id="team">
-      <div class="container">
-        <div class="section-header">
-          <h3>Team</h3>
-          <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque</p>
-        </div>
-
-        <div class="row">
-
-          <div class="col-lg-3 col-md-6 wow fadeInUp">
-            <div class="member">
-              <img src="img/team-1.jpg" class="img-fluid" alt="">
-              <div class="member-info">
-                <div class="member-info-content">
-                  <h4>Walter White</h4>
-                  <span>Chief Executive Officer</span>
-                  <div class="social">
-                    <a href=""><i class="fa fa-twitter"></i></a>
-                    <a href=""><i class="fa fa-facebook"></i></a>
-                    <a href=""><i class="fa fa-google-plus"></i></a>
-                    <a href=""><i class="fa fa-linkedin"></i></a>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
-            <div class="member">
-              <img src="img/team-2.jpg" class="img-fluid" alt="">
-              <div class="member-info">
-                <div class="member-info-content">
-                  <h4>Sarah Jhonson</h4>
-                  <span>Product Manager</span>
-                  <div class="social">
-                    <a href=""><i class="fa fa-twitter"></i></a>
-                    <a href=""><i class="fa fa-facebook"></i></a>
-                    <a href=""><i class="fa fa-google-plus"></i></a>
-                    <a href=""><i class="fa fa-linkedin"></i></a>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.2s">
-            <div class="member">
-              <img src="img/team-3.jpg" class="img-fluid" alt="">
-              <div class="member-info">
-                <div class="member-info-content">
-                  <h4>William Anderson</h4>
-                  <span>CTO</span>
-                  <div class="social">
-                    <a href=""><i class="fa fa-twitter"></i></a>
-                    <a href=""><i class="fa fa-facebook"></i></a>
-                    <a href=""><i class="fa fa-google-plus"></i></a>
-                    <a href=""><i class="fa fa-linkedin"></i></a>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
-            <div class="member">
-              <img src="img/team-4.jpg" class="img-fluid" alt="">
-              <div class="member-info">
-                <div class="member-info-content">
-                  <h4>Amanda Jepson</h4>
-                  <span>Accountant</span>
-                  <div class="social">
-                    <a href=""><i class="fa fa-twitter"></i></a>
-                    <a href=""><i class="fa fa-facebook"></i></a>
-                    <a href=""><i class="fa fa-google-plus"></i></a>
-                    <a href=""><i class="fa fa-linkedin"></i></a>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-
-        </div>
-
-      </div>
-    </section> -->
-    <!-- #team -->
-
-    <!--==========================
-      Clients Section
-    ============================-->
-    <!-- <section id="clients" class="section-bg">
-
-      <div class="container">
-
-        <div class="section-header">
-          <h3>Our CLients</h3>
-          <p>WE GO 'THAT' EXTRA MILE TO SEE OUR CLIENTS SMILE
-          </p>
-        </div>
-
-        <div class="row no-gutters clients-wrap clearfix wow fadeInUp">
-
-          <div class="col-lg-3 col-md-4 col-xs-6">
-            <div class="client-logo">
-              <img src="img/clients/capex.png" class="img-fluid" alt="">
-            </div>
-          </div>
-
-          <div class="col-lg-3 col-md-4 col-xs-6">
-            <div class="client-logo">
-              <img src="img/clients/iliad.png" class="img-fluid" alt="">
-            </div>
-          </div>
-
-          <div class="col-lg-3 col-md-4 col-xs-6">
-            <div class="client-logo">
-              <img src="img/clients/lausd.png" class="img-fluid" alt="">
-            </div>
-          </div>
-
-          <div class="col-lg-3 col-md-4 col-xs-6">
-            <div class="client-logo">
-              <img src="img/clients/lee.png" class="img-fluid" alt="">
-            </div>
-          </div>
-
-          <div class="col-lg-3 col-md-4 col-xs-6">
-            <div class="client-logo">
-              <img src="img/clients/mitoswab.png" class="img-fluid" alt="">
-            </div>
-          </div>
-
-          <div class="col-lg-3 col-md-4 col-xs-6">
-            <div class="client-logo">
-              <img src="img/clients/quickspring.png" class="img-fluid" alt="">
-            </div>
-          </div>
-
-          <div class="col-lg-3 col-md-4 col-xs-6">
-            <div class="client-logo">
-              <img src="img/clients/rvp.png" class="img-fluid" alt="">
-            </div>
-          </div>
-
-          <div class="col-lg-3 col-md-4 col-xs-6">
-            <div class="client-logo">
-              <img src="img/clients/skin.png" class="img-fluid" alt="">
-            </div>
-          </div>
-          <div class="col-lg-3 col-md-4 col-xs-6">
-              <div class="client-logo">
-                <img src="img/clients/svm.png" class="img-fluid" alt="">
-              </div>
-            </div>
-            <div class="col-lg-3 col-md-4 col-xs-6">
-                <div class="client-logo">
-                  <img src="img/clients/sweatrate.png" class="img-fluid" alt="">
-                </div>
-              </div>
-              <div class="col-lg-3 col-md-4 col-xs-6">
-                  <div class="client-logo">
-                    <img src="img/clients/washing.png" class="img-fluid" alt="">
-                  </div>
-                </div>
-
-        </div>
-
-      </div>
-
-    </section>-->
+    
   </main> 
 
 

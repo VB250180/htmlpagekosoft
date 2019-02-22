@@ -263,8 +263,8 @@ h6 {
 .main-nav a {
   display: block;
   position: relative;
-  color: #004289;
-  padding: 10px 15px;
+  color: #4d4d4d;
+  padding: 25px 15px;
   transition: 0.3s;
   font-size: 14px;
   font-family: "Montserrat", sans-serif;
@@ -1468,8 +1468,6 @@ h6 {
 
 .row.product-container div {
     width: 20%;
-    border: 0px solid gray;
-    box-shadow: 3px 3px 5px 6px #ccc;
     margin-right: 0px;
 }
 .row.product2-container div {
@@ -1609,7 +1607,7 @@ h6 {
   transition: all 0.5s;
   z-index: 997;
   transition: all 0.5s;
-  padding: 20px 0;
+  padding: 6px 0;
   background: #fff;
   box-shadow: 0px 0px 30px rgba(127, 137, 161, 0.3);
 }
@@ -1639,7 +1637,7 @@ h6 {
 #header .logo img {
   padding: 0;
   margin: 7px 0;
-  max-height: 26px;
+  max-height: 50px;
 }
 
 .main-pages {
@@ -1653,7 +1651,7 @@ h6 {
 #intro {
   width: 100%;
   position: relative;
-  background: url("../img/home-bg.jpg") center bottom no-repeat;
+  background: url("../img/contact.jpg") center bottom no-repeat;
   background-size: cover;
   padding: 200px 0 120px 0;
 }
@@ -2881,3 +2879,9 @@ img.img-fluid-about{
 .banner {
   width: 100%;
  }
+ .band{
+  height: 5em;
+  position: absolute;
+  margin-top: -5em;
+  width: -webkit-fill-available;
+  }
