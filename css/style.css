@@ -2904,3 +2904,14 @@ img.img-fluid-about{
   {
     font-family: JosefinSans-Bold;
   }
+
+
+
+
+/* vino */
+img.img.responsive {
+  max-width: 100%;
+}
+p.lead.mb-0 {
+  line-height: 2em;
+}
